@@ -6,7 +6,15 @@ namespace ATV2709
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] alunosArray = new string[3];
+
+            alunosArray[0] = "Maju";
+            alunosArray[1] = "Lucas";
+            alunosArray[2] = "Dani";
+            alunosArray[3] = "Julia";
+
+        Console.WriteLine(alunosArray[0]);
+
         }
     }
 }
