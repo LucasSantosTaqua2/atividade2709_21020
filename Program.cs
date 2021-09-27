@@ -11,9 +11,12 @@ namespace ATV2709
             alunosArray[0] = "Maju";
             alunosArray[1] = "Lucas";
             alunosArray[2] = "Dani";
-            alunosArray[3] = "Julia";
 
-        Console.WriteLine(alunosArray[0]);
+        foreach (string aluno in alunosArray)
+        {
+            Console.WriteLine(aluno);
+
+        }
 
         }
     }
